@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddSimulation">
+
+    <TextView
+        android:id="@+id/add_choice"
+        android:layout_width="264dp"
+        android:layout_height="48dp"
+
+        android:layout_marginBottom="76dp"
+        android:text="Care este alegerea ta azi? Scafe sau Panouri 3D?"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/a_scafe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/a_scafe"
+        android:layout_width="424dp"
+        android:background="@drawable/mybutton"
+        android:layout_height="60dp"
+        android:layout_marginBottom="24dp"
+        android:text="Scafe"
+        app:layout_constraintBottom_toTopOf="@+id/a_panel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/a_panel"
+        android:layout_width="427dp"
+        android:layout_height="53dp"
+        android:background="@drawable/mybutton"
+        android:layout_marginBottom="376dp"
+        android:text="Panouri 3D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/frame_specificatii"
+        android:layout_width="351dp"
+        android:layout_height="339dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </FrameLayout>
+
+    <!--    <fragment-->
+    <!--        android:id="@+id/s_fragment"-->
+    <!--        android:layout_width="401dp"-->
+    <!--        android:layout_height="315dp"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_marginBottom="80dp"-->
+    <!--        tools:context=".ScafeFragment"/>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/id_poza_scafa"
+        android:layout_width="187dp"
+        android:layout_height="103dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="224dp"
+        tools:srcCompat="@sample/scafa.png" />
+
+    <TextView
+        android:id="@+id/id_nume_comanda"
+        android:layout_width="194dp"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="202dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="14dp"
+        android:gravity="center"
+        android:text="Cerere Oferta #1"
+        android:textAlignment="center"
+        android:textSize="15dp" />
+
+</RelativeLayout>

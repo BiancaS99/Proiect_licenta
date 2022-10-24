@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">SDesign</string>
+    <string name="username">Username</string>
+    <string name="inreg">Inca nu ai un cont? Inregistreaza-te aici :)</string>
+    <string name="title_activity_collection">Collection</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="forgot_pass">Am uitat parola</string>
+    <string name="pref_color_name">Culoare Preferata</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="culoare_scafe">Culoare Scafe:</string>
+    <string name="tip_placa">Tip Placa</string>
+    <string name="lungime_perete">Lungime Perete:</string>
+    <string name="lungime_perete_1">Lungime Perete</string>
+    <string name="simulare">Simulare</string>
+    <string-array name="pref_color">
+        <item>Albastru</item>
+        <item>Galben</item>
+
+    </string-array>
+    <string-array name="pref_color_values">
+        <item>Albastru</item>
+        <item>Galben</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="culoarea_dorit_pentru_pere_ii_3d_este">Culoarea dorită pentru pereții 3D este:</string>
+    <string name="simulare_2">Simulare</string>
+</resources>

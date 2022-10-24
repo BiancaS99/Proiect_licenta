@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Informatii conectare" >
+        <EditTextPreference
+            android:key="utilizator"
+            android:summary="Introduceti numele de utilizator"
+            android:negativeButtonText="Inapoi"
+            android:positiveButtonText="OK"
+            android:title="Utilizator" />
+
+        <EditTextPreference
+            android:inputType="textPassword"
+            android:key="parola"
+            android:negativeButtonText="Renunta"
+            android:positiveButtonText="Accepta"
+            android:summary="Introduceti parola"
+            android:title="Parola" />
+        <CheckBoxPreference
+            android:key="ramanConectat"
+            android:summary="Se mentine sau nu autentificarea"
+            android:title="Raman conectat" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Culori" >
+        <ListPreference
+            android:entries="@array/pref_color"
+            android:entryValues="@array/pref_color_values"
+            android:key="prefs_color"
+            android:title="@string/pref_color_name" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

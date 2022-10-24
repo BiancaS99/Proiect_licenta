@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "142689934203",
+    "firebase_url": "https://sdesign-6c727.firebaseio.com",
+    "project_id": "sdesign-6c727",
+    "storage_bucket": "sdesign-6c727.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142689934203:android:55c0ef71a2db9eea4dfbde",
+        "android_client_info": {
+          "package_name": "com.example.sdesign"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142689934203-nkci2gffn83f9cmtickkauih048gvrvo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh3SXvX6xGY_KgH9Bmg8UDVLAir0KSCXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142689934203-nkci2gffn83f9cmtickkauih048gvrvo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
